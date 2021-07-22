@@ -1,0 +1,23 @@
+@import '../../styles/theme.scss';
+
+.checkbox-container {
+  color: $text;
+  display: flex;
+  font-size: 1.6rem;
+  width: max-content;
+  
+  &__button {
+    width: 22px;
+    height: 22px;
+    margin-right: 1rem;
+    border-radius: 7px;
+    border: 3px solid $border;
+    background-color: $white;
+    transition: background 0.3s ease-out;
+
+    &--isChecked {
+      background-color: $primary;
+    }
+  }
+
+}

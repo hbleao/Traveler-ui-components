@@ -1,0 +1,45 @@
+@import '../../styles/theme.scss';
+
+.app {
+  background-color: $bg;
+  padding: 2.4rem 3.2rem;
+
+  .app__title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4rem;
+
+    h1 {
+      font-size: 4.8rem;
+      color: $title;
+    }
+  }
+
+  .app__subtitle {
+    margin: 2rem 0 2rem;
+
+    h2 {
+      font-size: 3.2rem;
+      padding-left: 1.6rem;
+      color: $title;
+      margin-bottom: 2rem;
+      position: relative;
+
+      &::after {
+        content: '';
+        width: 5px;
+        height: 48px;
+        display: block;
+        background: $primary;
+        color: $primary;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
+    }
+  }
+
+  .divisor {
+    margin-bottom: 2rem;
+  }
+}

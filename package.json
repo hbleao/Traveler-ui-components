@@ -1,0 +1,31 @@
+{
+  "author": "Henrique Leao",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve ./src/index.tsx",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.14",
+    "@types/react-dom": "^17.0.9",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.1.0",
+    "prettier": "^2.3.2",
+    "react-icons": "^4.2.0",
+    "sass": "^1.35.2",
+    "sass-loader": "^12.1.0",
+    "source-map-loader": "^3.0.0",
+    "style-loader": "^3.1.0",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.5",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
