@@ -1,6 +1,8 @@
 {
+  "name": "traveler-ui-components",
+  "description": "this is a traveler components library",
   "author": "Henrique Leao",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "dev": "webpack serve ./src/index.tsx",
